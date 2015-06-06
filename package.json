@@ -1,0 +1,47 @@
+{
+  "name": "report-status",
+  "version": "0.0.0",
+  "description": "Check whether iTunesConnect and Google Play have released today's app reports yet.",
+  "license": "MIT",
+  "repository": "luugiathuy/report-status",
+  "bin": {
+    "report-status": "cli.js"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "Luu Gia Thuy",
+    "email": "luugiathuy@gmail.com",
+    "url": "luugiathuy.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "itunes",
+    "connect",
+    "apple",
+    "google",
+    "play",
+    "app",
+    "report",
+    "status",
+    "release",
+    "time"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "got": "^3.2.0",
+    "meow": "^3.1.0",
+    "async": "^1.1.0"
+  }
+}
