@@ -17,7 +17,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test.js"
   },
   "files": [
     "index.js",
@@ -43,5 +43,8 @@
     "got": "^3.2.0",
     "meow": "^3.1.0",
     "async": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
   }
 }

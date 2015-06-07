@@ -7,9 +7,9 @@ var async = require('async');
 module.exports = function (callback) {
     var getStatus = function (url) {
         return function (cb) {
-            got(url, function (error, data) {
-                if (error) {
-                    cb(error);
+            got(url, function (err, data) {
+                if (err) {
+                    cb(err);
                     return;
                 }
 

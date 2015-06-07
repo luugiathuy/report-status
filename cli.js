@@ -12,7 +12,6 @@ var cli = meow({
     ].join('\n')
 });
 
-
 reportStatus(function (err, statuses) {
     if (err) {
         console.error(err.message);
