@@ -28,7 +28,7 @@ var reportStatus = require('report-status');
 
 reportStatus(function (err, statuses) {
     console.log(statuses);
-    //=> { googlePlay: { status: true },
+    //=> { googlePlay: { status: false },
     //     iTunesConnect: { status: true } }
 });
 ```

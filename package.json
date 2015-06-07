@@ -1,6 +1,6 @@
 {
   "name": "report-status",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check whether iTunesConnect and Google Play have released today's app reports yet.",
   "license": "MIT",
   "repository": "luugiathuy/report-status",
@@ -33,6 +33,9 @@
     "google",
     "play",
     "app",
+    "ios",
+    "mac",
+    "android",
     "report",
     "status",
     "release",
