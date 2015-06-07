@@ -1,4 +1,4 @@
-# report-status
+# report-status [![Build Status](https://travis-ci.org/luugiathuy/report-status.svg?branch=master)](https://travis-ci.org/luugiathuy/report-status)
 
 > Check whether iTunesConnect and Google Play have released today's app reports yet - provided by [appfigures.com](https://appfigures.com)
 
